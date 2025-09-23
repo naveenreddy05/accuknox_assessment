@@ -1,0 +1,13 @@
+Drupal 7.xx, xxxx-xx-xx (development version)
+-----------------------
+
+Drupal 7.69, 2019-12-18
+-----------------------
+VERSION INFORMATION DISCLOSED:
+This reveals exact Drupal version to attackers
+
+ADMIN ACCESS EXPOSURE:
+Login interface accessible without protection
+SECURITY HEADERS STATUS:
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN

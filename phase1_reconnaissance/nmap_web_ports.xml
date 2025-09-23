@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Fri Sep 19 15:36:33 2025 as: /usr/lib/nmap/nmap -&#45;privileged -p 80,443,8080,8443,8000,3000 -oA nmap_web_ports itsecgames.com -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -p 80,443,8080,8443,8000,3000 -oA nmap_web_ports itsecgames.com" start="1758276393" startstr="Fri Sep 19 15:36:33 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="6" services="80,443,3000,8000,8080,8443"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="31.3.96.40" addrtype="ipv4"/>
+<hostnames>
+<hostname name="itsecgames.com" type="user"/>
+</hostnames>
+</hosthint>
+<host starttime="1758276393" endtime="1758276395"><status state="up" reason="reset" reason_ttl="255"/>
+<address addr="31.3.96.40" addrtype="ipv4"/>
+<hostnames>
+<hostname name="itsecgames.com" type="user"/>
+<hostname name="web.mmebvba.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3000"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ppp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8000"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="http-alt" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8080"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="http-proxy" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<times srtt="10356" rttvar="8772" to="100000"/>
+</host>
+<runstats><finished time="1758276395" timestr="Fri Sep 19 15:36:35 2025" summary="Nmap done at Fri Sep 19 15:36:35 2025; 1 IP address (1 host up) scanned in 1.98 seconds" elapsed="1.98" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,5 @@
+HTTP SITE HEADERS:
+
+HTTPS SITE HEADERS:
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN

@@ -1,0 +1,97 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            06:e4:68:19:7e:9a:3e:f3:33:2d:35:a8:42:f8:58:af:9e:9c
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, O=Let's Encrypt, CN=R10
+        Validity
+            Not Before: Aug  6 09:47:00 2025 GMT
+            Not After : Nov  4 09:46:59 2025 GMT
+        Subject: CN=mmebv.be
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:bb:a6:cb:09:b6:1e:dd:ea:e8:fe:88:53:7b:74:
+                    ab:3c:dd:35:9f:3f:a1:85:b3:b9:24:56:25:42:96:
+                    3a:c7:11:53:fb:48:80:5d:61:34:f2:98:b6:aa:47:
+                    7f:19:29:b4:d0:fa:54:cc:b0:d3:9b:d5:13:a9:ce:
+                    05:be:78:92:bc:75:be:e0:41:a3:89:91:9a:a8:f9:
+                    54:e1:8d:9b:63:e5:e4:d9:a9:a2:a4:4a:a1:30:2d:
+                    7e:72:4f:25:34:17:ad:c3:4a:f1:e4:73:c5:9c:d5:
+                    31:eb:ac:83:ca:b6:18:cb:53:b6:1b:a3:d9:96:50:
+                    1e:ae:48:06:65:f4:74:17:f6:6e:f1:e9:de:13:e6:
+                    50:20:ef:8f:c1:ae:11:46:ac:39:6a:bd:f2:b9:40:
+                    71:00:6c:4c:aa:eb:2d:2b:89:59:ca:4e:24:2b:7c:
+                    64:a8:55:80:d2:5b:33:ad:a9:cc:c1:09:74:82:1a:
+                    e3:2f:58:16:13:f5:cb:2e:8b:38:2f:21:7b:4f:4a:
+                    41:38:71:bb:06:de:d6:71:35:2d:90:ac:64:d8:f6:
+                    0f:5b:69:a3:69:2e:51:92:74:dd:da:86:24:ef:b8:
+                    c7:e1:62:07:ac:60:0a:0d:bc:55:3c:2a:fb:90:f3:
+                    74:f7:ae:d1:55:dc:e5:8f:ff:03:c9:72:f5:1c:eb:
+                    68:59
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                12:81:FE:A5:CB:03:16:DD:61:1B:6D:8B:A7:91:AA:1F:F0:92:5C:D3
+            X509v3 Authority Key Identifier: 
+                BB:BC:C3:47:A5:E4:BC:A9:C6:C3:A4:72:0C:10:8D:A2:35:E1:C8:E8
+            Authority Information Access: 
+                CA Issuers - URI:http://r10.i.lencr.org/
+            X509v3 Subject Alternative Name: 
+                DNS:mmebv.be, DNS:mmebv.com, DNS:mmebvba.com, DNS:mmesec.be, DNS:mmesec.com, DNS:www.mmebv.be, DNS:www.mmebv.com, DNS:www.mmebvba.com, DNS:www.mmesec.be, DNS:www.mmesec.com
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.1
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://r10.c.lencr.org/29.crl
+
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : A4:42:C5:06:49:60:61:54:8F:0F:D4:EA:9C:FB:7A:2D:
+                                26:45:4D:87:A9:7F:2F:DF:45:59:F6:27:4F:3A:84:54
+                    Timestamp : Aug  6 10:45:30.352 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:46:02:21:00:BB:24:43:72:CC:91:30:BE:4F:C2:AA:
+                                78:20:1B:44:3E:89:18:F5:EC:FF:2F:53:6B:9B:97:4F:
+                                33:69:E3:67:90:02:21:00:ED:2F:74:BC:1C:31:BA:76:
+                                2D:75:71:9C:87:35:B2:6C:64:4A:6C:BB:5F:AD:F0:30:
+                                1B:72:2A:DB:FD:BB:2D:9A
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 12:F1:4E:34:BD:53:72:4C:84:06:19:C3:8F:3F:7A:13:
+                                F8:E7:B5:62:87:88:9C:6D:30:05:84:EB:E5:86:26:3A
+                    Timestamp : Aug  6 10:45:30.369 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:20:5D:D9:1E:D6:01:B3:C6:78:AA:64:79:A2:
+                                CC:A7:36:88:AE:B4:1C:1B:3A:94:2A:9C:1D:C0:12:8D:
+                                98:36:B2:16:02:21:00:FD:33:91:85:65:C9:68:93:7B:
+                                F6:F4:23:58:AA:DF:9D:20:11:C9:6A:69:83:4C:A7:92:
+                                DD:C8:92:FA:CC:8E:2C
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        2a:f7:16:d2:82:39:d7:77:7d:3e:07:80:35:f4:cc:d4:43:a2:
+        91:d3:d2:7d:a3:98:12:63:a2:5f:be:9c:ff:81:42:d0:4e:df:
+        66:cc:48:15:ff:ed:59:15:9a:a9:54:9e:cd:3a:ce:35:71:be:
+        88:0a:ea:65:8b:35:cb:a6:a6:ff:d2:df:aa:2c:77:86:62:f7:
+        88:16:89:d3:ed:1f:a2:57:5d:8f:e9:4f:45:5e:cd:56:87:bb:
+        2b:75:54:39:a1:32:02:eb:99:5a:ae:fc:6a:88:47:de:80:e5:
+        77:b2:14:89:4a:bd:00:8c:4b:42:75:a5:8a:83:0b:85:ea:10:
+        36:78:d8:29:ba:05:25:45:6e:4c:84:bb:0c:3d:45:dd:4b:3b:
+        6c:f9:ed:11:a5:3b:2b:26:28:0e:48:35:48:46:5a:6c:17:0a:
+        c0:72:4b:dc:5e:6d:d0:84:e0:95:25:62:ec:e7:24:16:0a:16:
+        83:5c:77:70:f7:6e:d0:97:d0:e7:8f:4e:28:bd:7b:49:44:b3:
+        20:87:d5:58:4c:fe:00:d5:d1:e5:63:af:ee:9c:cb:82:f5:16:
+        3d:ec:44:b5:e7:b9:16:d7:fe:3d:b6:69:fe:80:1e:e3:d9:06:
+        f7:a4:c6:31:f3:c0:a8:af:99:85:f0:6b:6f:03:9f:4d:a3:94:
+        ab:32:0f:9a

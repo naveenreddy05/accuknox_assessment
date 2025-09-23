@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Fri Sep 19 15:52:44 2025 as: /usr/lib/nmap/nmap -Pn -T4 -p22,80,443 -sV -&#45;reason -oA nmap_no_ping itsecgames.com -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -Pn -T4 -p22,80,443 -sV -&#45;reason -oA nmap_no_ping itsecgames.com" start="1758277364" startstr="Fri Sep 19 15:52:44 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="3" services="22,80,443"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1758277366" endtime="1758277404"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="31.3.96.40" addrtype="ipv4"/>
+<hostnames>
+<hostname name="itsecgames.com" type="user"/>
+<hostname name="web.mmebvba.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="6.7p1" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:6.7p1</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="298983" rttvar="168325" to="972283"/>
+</host>
+<runstats><finished time="1758277404" timestr="Fri Sep 19 15:53:24 2025" summary="Nmap done at Fri Sep 19 15:53:24 2025; 1 IP address (1 host up) scanned in 40.97 seconds" elapsed="40.97" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,14 @@
+# Nmap 7.95 scan initiated Fri Sep 19 15:36:33 2025 as: /usr/lib/nmap/nmap --privileged -p 80,443,8080,8443,8000,3000 -oA nmap_web_ports itsecgames.com
+Nmap scan report for itsecgames.com (31.3.96.40)
+Host is up (0.010s latency).
+rDNS record for 31.3.96.40: web.mmebvba.com
+
+PORT     STATE    SERVICE
+80/tcp   filtered http
+443/tcp  filtered https
+3000/tcp filtered ppp
+8000/tcp filtered http-alt
+8080/tcp filtered http-proxy
+8443/tcp filtered https-alt
+
+# Nmap done at Fri Sep 19 15:36:35 2025 -- 1 IP address (1 host up) scanned in 1.98 seconds

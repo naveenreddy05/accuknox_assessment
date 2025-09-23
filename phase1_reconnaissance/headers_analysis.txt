@@ -1,0 +1,35 @@
+=== HTTP HEADERS ANALYSIS ===
+
+=== Homepage (/) ===
+HTTP/1.1 200 OK
+Date: Fri, 19 Sep 2025 15:22:34 GMT
+Server: Apache
+Last-Modified: Wed, 09 Feb 2022 13:14:08 GMT
+ETag: "e43-5d7959bd3c800"
+Accept-Ranges: bytes
+Content-Length: 3651
+Vary: Accept-Encoding
+Content-Type: text/html
+
+
+=== Homepage HTTPS (https://itsecgames.com) ===
+Could not fetch headers: SSL certificate mismatch
+
+=== Login Page (/login) ===
+HTTP/1.1 404 Not Found - page does not exist, so headers like Set-Cookie or Content-Security-Policy are not set
+
+=== Dashboard Page (/dashboard) ===
+HTTP/1.1 404 Not Found - page does not exist, so headers like Set-Cookie or Content-Security-Policy are not set
+HTTP/1.1 200 OK
+Date: Fri, 19 Sep 2025 15:24:45 GMT
+Server: Apache
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+X-Content-Type-Options: nosniff
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge
+X-Generator: Drupal 7 (http://drupal.org)
+Link: <https://itsecgames.com/>; rel="canonical",<https://itsecgames.com/>; rel="shortlink"
+Content-Type: text/html; charset=utf-8
+

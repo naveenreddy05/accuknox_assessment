@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Fri Sep 19 15:52:21 2025 as: /usr/lib/nmap/nmap -sT -p22,80,443 --reason -sV -sC -oA nmap_confirm_ports itsecgames.com
+Host: 31.3.96.40 (web.mmebvba.com)	Status: Up
+Host: 31.3.96.40 (web.mmebvba.com)	Ports: 22/filtered/tcp//ssh///, 80/filtered/tcp//http///, 443/filtered/tcp//https///
+# Nmap done at Fri Sep 19 15:52:30 2025 -- 1 IP address (1 host up) scanned in 9.39 seconds

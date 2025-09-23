@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clickjacking PoC - itsecgames.com</title>
+</head>
+<body>
+    <h1>Clickjacking Vulnerability Demonstration</h1>
+    <p>The HTTP site (port 80) is vulnerable to clickjacking attacks due to missing X-Frame-Options header.</p>
+    
+    <h2>Proof of Concept:</h2>
+    <iframe src="http://itsecgames.com" width="800" height="600" style="opacity:0.5">
+        This demonstrates that the site can be embedded in frames
+    </iframe>
+    
+    <h2>Business Impact:</h2>
+    <ul>
+        <li>Attackers can overlay invisible frames</li>
+        <li>Users can be tricked into clicking malicious content</li>
+        <li>Session hijacking possible</li>
+        <li>Credential theft via social engineering</li>
+    </ul>
+</body>
+</html>

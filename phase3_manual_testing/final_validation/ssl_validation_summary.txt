@@ -1,0 +1,9 @@
+=== SSL CERTIFICATE VALIDATION FINDINGS ===
+Certificate Analysis Date: Tuesday 23 September 2025 02:15:33 PM IST
+
+CERTIFICATE VALIDITY ISSUE CONFIRMED:
+- Certificate not valid for itsecgames.com domain
+- TLS validation fails (requires --insecure workaround)
+- Risk: Man-in-the-middle attacks possible
+
+IMPACT: Users may accept invalid certificates, exposing communications

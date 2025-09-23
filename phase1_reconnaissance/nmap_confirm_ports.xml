@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Fri Sep 19 15:52:21 2025 as: /usr/lib/nmap/nmap -sT -p22,80,443 -&#45;reason -sV -sC -oA nmap_confirm_ports itsecgames.com -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sT -p22,80,443 -&#45;reason -sV -sC -oA nmap_confirm_ports itsecgames.com" start="1758277341" startstr="Fri Sep 19 15:52:21 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="3" services="22,80,443"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="31.3.96.40" addrtype="ipv4"/>
+<hostnames>
+<hostname name="itsecgames.com" type="user"/>
+</hostnames>
+</hosthint>
+<host starttime="1758277343" endtime="1758277349"><status state="up" reason="reset" reason_ttl="255"/>
+<address addr="31.3.96.40" addrtype="ipv4"/>
+<hostnames>
+<hostname name="itsecgames.com" type="user"/>
+<hostname name="web.mmebvba.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="411" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1758277350" timestr="Fri Sep 19 15:52:30 2025" summary="Nmap done at Fri Sep 19 15:52:30 2025; 1 IP address (1 host up) scanned in 9.39 seconds" elapsed="9.39" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

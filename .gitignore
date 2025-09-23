@@ -1,0 +1,16 @@
+# Sensitive files
+*.log
+*password*
+*credential*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large binary files
+*.pcap
+*.cap
+
+# OS generated files
+.DS_Store
+Thumbs.db
